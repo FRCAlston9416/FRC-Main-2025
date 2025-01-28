@@ -65,7 +65,7 @@ private DifferentialDrive differentialDrive;
 
     rightmotor1Config.encoder
     .positionConversionFactor(1/17.5);
-
+ 
   rightmotor1.configure(rightmotor1Config, ResetMode.kResetSafeParameters, PersistMode.kPersistParameters);
 
   SparkMaxConfig rightmotor2Config = new SparkMaxConfig();
@@ -107,7 +107,7 @@ rightRelativeEncoder.setPosition(0);
 leftmotor1.set(power);
  }
   public void setRight(double power){
-rightmotor1.set(power);
+rightmotor1.set(power); 
 
  }
 
@@ -189,4 +189,7 @@ rightRelativeEncoder.setPosition(0);
 }
 
 
-// reefscape is finally here, water game woohoo
+// red white blues in the sky
+// This was a triumph, I'm making a note here, huge success
+// swimmmmmmmm
+// Twilight burning the tower
