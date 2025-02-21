@@ -96,7 +96,7 @@ private DifferentialDrive differentialDrive;
 leftRelativeEncoder.setPosition(0);
 rightRelativeEncoder.setPosition(0);
 
-// differentialDrive = new DifferentialDrive(leftmotor1, rightmotor1);
+differentialDrive = new DifferentialDrive(leftmotor1, rightmotor1);
 
 
 

@@ -52,7 +52,7 @@ public class RobotContainer {
     this.drivetrain.setDefaultCommand(new RunCommand(() ->{
       // With slew rate limit
       // drivetrain.tankDrive(leftFilter.calculate(m_driverController.getLeftY()), rightFilter.calculate(m_driverController.getRightY()), 3);
-      drivetrain.setArcadeDrive(leftFilter.calculate(m_driverController.getLeftY()), rightFilter.calculate(m_driverController.getRightX()), false);
+      drivetrain.setArcadeDrive(leftFilter.calculate(m_driverController.getLeftY()), rightFilter.calculate(m_driverController.getRightX()), true);
       
       // No slew rate limit
       // drivetrain.tankDrive(m_driverController.getLeftY(), m_driverController.getRightY(), true);
